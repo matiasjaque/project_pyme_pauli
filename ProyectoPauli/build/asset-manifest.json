@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.590dd330.css",
+    "main.js": "/static/js/main.02f0d46b.js",
+    "static/media/lengua_gato.png": "/static/media/lengua_gato.a515be599ba109698f84.png",
+    "static/media/pie_limon.png": "/static/media/pie_limon.699cb977165e673642b0.png",
+    "static/media/alfajores_blancos.png": "/static/media/alfajores_blancos.c45c8ee876bb2eb0ac8e.png",
+    "static/media/logo2.png": "/static/media/logo2.4cce50e65dafc268aa2b.png",
+    "static/media/alfajor_maicena.png": "/static/media/alfajor_maicena.3e9fc977544e0192e393.png",
+    "static/media/logo3.png": "/static/media/logo3.3796f202106777093d45.png",
+    "static/media/logo4.png": "/static/media/logo4.dbe3421c0df62c70bb01.png",
+    "static/media/tarta_yoguth.png": "/static/media/tarta_yoguth.7eff8b1f218392a49acd.png",
+    "static/media/queque.png": "/static/media/queque.1c6679e68fbd2238f1a9.png",
+    "static/media/donas.png": "/static/media/donas.17428ef920904db08194.png",
+    "static/media/galletas_diseño.png": "/static/media/galletas_diseño.9b51c1f57847e68cb6be.png",
+    "static/media/alfajores_negros.png": "/static/media/alfajores_negros.08904202b780936cfacb.png",
+    "index.html": "/index.html",
+    "main.590dd330.css.map": "/static/css/main.590dd330.css.map",
+    "main.02f0d46b.js.map": "/static/js/main.02f0d46b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.590dd330.css",
+    "static/js/main.02f0d46b.js"
+  ]
+}
