@@ -38,7 +38,7 @@ const Dashboard = () => {
             className="d-block w-100"
             src={logo4}
             alt="Third slide"
-          />
+          /> 
 
           <Carousel.Caption>
             <h3>Third slide label</h3>
