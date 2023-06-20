@@ -1,0 +1,63 @@
+#contenedorProductos{
+    width: 100%;
+    height: auto;
+    background: #FFC9D9;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contenedorSecundarioProductos{
+    width: 80%;
+    height: auto;
+    background: #FFC9D9;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 30px 5px;
+    grid-gap: 15px;
+}
+
+#filasProductos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#columnasProductos{
+    width: 33.3%;
+}
+
+#contenedorCardProducto{
+    height: 45%;
+    width: 25% !important;
+    margin: 15px;
+    background: #FEE0D5;
+    border-radius: 15px;
+}
+
+.contenedorBodyProducto{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenProductoCard{
+    width: 100% !important;
+    height: 10em;
+}
+
+.tituloCardProducto{
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+    font-family: none;
+    text-align: center;
+}
+
+.botonCardProducto{
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+    font-family: none !important;
+    margin: auto;
+    background: black !important;
+}

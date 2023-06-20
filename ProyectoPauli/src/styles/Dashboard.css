@@ -3,3 +3,17 @@
   height: 60%;
   width: 100%;
 }
+
+#contenedorCarousel{
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-inner{
+  height: 100%;
+}
+
+.contenedorSecundarioCarousel{
+  height: 100%;
+  width: 100%;
+}

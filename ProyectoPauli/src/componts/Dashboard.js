@@ -2,14 +2,18 @@ import React from "react";
 import "../styles/Dashboard.css";
 import Carousel from "react-bootstrap/Carousel";
 
+import logo2 from '../assets/logos/logo2.png';
+import logo3 from '../assets/logos/logo3.png';
+import logo4 from '../assets/logos/logo4.png';
+
 const Dashboard = () => {
   return (
     <div id="dashboard">
-      <Carousel>
-        <Carousel.Item>
+      <Carousel id="contenedorCarousel">
+        <Carousel.Item className="contenedorSecundarioCarousel">
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src={logo2}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -17,10 +21,10 @@ const Dashboard = () => {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="contenedorSecundarioCarousel">
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={logo3}
             alt="Second slide"
           />
 
@@ -29,10 +33,10 @@ const Dashboard = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="contenedorSecundarioCarousel">
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src={logo4}
             alt="Third slide"
           />
 

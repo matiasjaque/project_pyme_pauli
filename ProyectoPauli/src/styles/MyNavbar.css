@@ -1,4 +1,37 @@
 #nabvar{
     background: #EDBDE7;
     height: 15%;
+    width: 100%;
+}
+
+#contenedorNavbar{
+    width: 100%;
+    height: 100%;
+    margin: 10px 20px;
+}
+
+#contenedorImagenNavbar{
+    width: 50%;
+    height: 100%;
+}
+
+#imagenLogoNavbar{
+    width: 60%;
+    height: 100%;
+}
+
+#contenedorRedesSocialesNavbar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: none;
+}
+
+.RedesSociales{
+    
+    color: black !important;
 }
