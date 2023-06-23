@@ -34,7 +34,11 @@ const Dashboard = () => {
       <Carousel id="contenedorCarousel">
         {imagenesCarusel.map((imagenCarusel) => (
           <Carousel.Item className="contenedorSecundarioCarousel">
-            <img src={imagenCarusel.imgLogo} alt={imagenCarusel.nombre} />
+            <img
+              id="imagenDashboard"
+              src={imagenCarusel.imgLogo}
+              alt={imagenCarusel.nombre}
+            />
           </Carousel.Item>
         ))}
       </Carousel>

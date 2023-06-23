@@ -2,6 +2,9 @@
   background-color: aqua;
   height: 60%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #contenedorCarousel {
@@ -13,7 +16,22 @@
   height: 100%;
 }
 
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .contenedorSecundarioCarousel {
   height: 100%;
-  width: 100%;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagenDashboard {
+  height: 50%;
+  width: 50%;
 }
