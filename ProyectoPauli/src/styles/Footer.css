@@ -1,0 +1,92 @@
+#contenedorFooter{
+    width: 100%;
+    height: 20%;
+    background: #9F7FB1;
+}
+
+#contenedorSecundarioFooter{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#contendorAcordionFooter{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background: none;
+}
+
+#contenedorItemFooter{
+    width: 75%;
+    margin: auto;
+    height: 100%;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: var(--bs-accordion-inner-border-radius);
+    border-bottom-left-radius: var(--bs-accordion-inner-border-radius);
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: none;
+    background: #FFC9D9;
+    color: black;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: none;
+    background: #FFC9D9;
+    color: black;
+}
+
+#textoCuerpoAcordionFooter{
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: none;
+    background: #FFC9D9;
+    color: black;
+}
+
+#contenedorRedesSocialesFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#tituloRedesSocialesFooter{
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: none;
+    color: black;
+}
+
+.botonesRedesSocialesFooter{
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: none;
+    color: black;
+    background: none;
+    border: none;
+}
+
+#estiloWtsFooter{
+    color: #10B418;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#estiloInstagramFooter{
+    color: #6C37BD;
+    font-size: 1.3em;
+    font-weight: bold;
+}

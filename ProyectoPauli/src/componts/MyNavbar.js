@@ -16,6 +16,8 @@ const MyNavbar = () => {
     return (
         <Navbar id='nabvar' expand="lg">
             <Container id='contenedorNavbar' fluid>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
                 <Navbar.Brand id='contenedorImagenNavbar' href="/">
                     <Image id='imagenLogoNavbar' src={logo} alt="Logo" />
                 </Navbar.Brand>
@@ -24,6 +26,7 @@ const MyNavbar = () => {
                     <Nav.Link className='RedesSociales' href="https://wa.me/56977731753"><MdWhatsapp />WhatsApp</Nav.Link>
                     <Nav.Link className='RedesSociales' href="https://www.instagram.com/paulii_ordenes/"><FaInstagram />Instagram</Nav.Link>
                 </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     )

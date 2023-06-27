@@ -1,63 +1,141 @@
-#contenedorProductos{
-    width: 100%;
-    height: auto;
-    background: #FFC9D9;
-    display: flex;
-    justify-content: center;
+/* ESTILOS PANTALLA DE ESCRITORIO */
+
+@media (min-width: 1071px) {
+
+    #contenedorProductos{
+        width: 100%;
+        height: auto;
+        background: #FFC9D9;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #contenedorSecundarioProductos{
+        width: 85%;
+        height: auto;
+        background: #FFC9D9;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 30px 5px;
+        
+    }
+
+    #filasProductos{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        grid-gap: 15px;
+    }
+
+    #columnasProductos{
+        width: 32%;
+    }
+
+    #contenedorCardProducto{
+        height: 45%;
+        width: 28% !important;
+        margin: 15px;
+        background: #FEE0D5;
+        border-radius: 15px;
+    }
+
+    .contenedorBodyProducto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagenProductoCard{
+        width: 100% !important;
+        height: 10em;
+    }
+
+    .tituloCardProducto{
+        font-size: 1.5em !important;
+        font-weight: bold !important;
+        font-family: none;
+        text-align: center;
+    }
+
+    .botonCardProducto{
+        font-size: 1.5em !important;
+        font-weight: bold !important;
+        font-family: none !important;
+        margin: auto;
+        background: black !important;
+    }
 
 }
 
-#contenedorSecundarioProductos{
-    width: 80%;
-    height: auto;
-    background: #FFC9D9;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin: 30px 5px;
-    grid-gap: 15px;
+@media (min-width: 480px) and (max-width: 1071px) {
+
+    #contenedorProductos{
+        width: 100%;
+        height: auto;
+        background: #FFC9D9;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #contenedorSecundarioProductos{
+        width: 85%;
+        height: auto;
+        background: #FFC9D9;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 30px 5px;
+    }
+
+    #filasProductos{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        grid-gap: 20px;
+    }
+
+    #columnasProductos{
+        width: 45%;
+    }
+
+    #contenedorCardProducto{
+        height: 45%;
+        width: 25% !important;
+        margin: 15px;
+        background: #FEE0D5;
+        border-radius: 15px;
+    }
+
+    .contenedorBodyProducto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagenProductoCard{
+        width: 100% !important;
+        height: 10em;
+    }
+
+    .tituloCardProducto{
+        font-size: 1.5em !important;
+        font-weight: bold !important;
+        font-family: none;
+        text-align: center;
+    }
+
+    .botonCardProducto{
+        font-size: 1.5em !important;
+        font-weight: bold !important;
+        font-family: none !important;
+        margin: auto;
+        background: black !important;
+    }
 }
 
-#filasProductos{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}
 
-#columnasProductos{
-    width: 33.3%;
-}
 
-#contenedorCardProducto{
-    height: 45%;
-    width: 25% !important;
-    margin: 15px;
-    background: #FEE0D5;
-    border-radius: 15px;
-}
-
-.contenedorBodyProducto{
-    display: flex;
-    flex-direction: column;
-}
-
-.imagenProductoCard{
-    width: 100% !important;
-    height: 10em;
-}
-
-.tituloCardProducto{
-    font-size: 1.5em !important;
-    font-weight: bold !important;
-    font-family: none;
-    text-align: center;
-}
-
-.botonCardProducto{
-    font-size: 1.5em !important;
-    font-weight: bold !important;
-    font-family: none !important;
-    margin: auto;
-    background: black !important;
-}

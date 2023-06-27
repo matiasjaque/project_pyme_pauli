@@ -269,88 +269,33 @@ const Productos = () => {
   return (
     <div id="contenedorProductos">
       <Container fluid id="contenedorSecundarioProductos">
-        {products.map((producto, index) =>
-          index % 3 === 0 ? (
-            <Row id="filasProductos" key={index}>
-              <Col id="columnasProductos" xs={12} sm={6} md={4} lg={3}>
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src={producto.img}
-                    className="imagenProductoCard"
-                  />
-                  <Card.Body className="contenedorBodyProducto">
-                    <Card.Title className="tituloCardProducto">
-                      {producto.titulo}
-                    </Card.Title>
-                    <Button
-                      className="botonCardProducto"
-                      onClick={() =>
-                        mostrarDetalles(producto.titulo, producto.tiposProducto)
-                      }
-                    >
-                      Ver Detalles!
-                    </Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-              {index + 1 < products.length && (
-                <Col id="columnasProductos" xs={12} sm={6} md={4} lg={3}>
-                  <Card>
-                    <Card.Img
-                      variant="top"
-                      src={products[index + 1].img}
-                      className="imagenProductoCard"
-                    />
-                    <Card.Body className="contenedorBodyProducto">
-                      <Card.Title className="tituloCardProducto">
-                        {products[index + 1].titulo}
-                      </Card.Title>
-                      <Button
-                        className="botonCardProducto"
-                        onClick={() =>
-                          mostrarDetalles(
-                            products[index + 1].titulo,
-                            products[index + 1].tiposProducto
-                          )
-                        }
-                      >
-                        Ver Detalles!
-                      </Button>
-                    </Card.Body>
-                  </Card>
-                </Col>
-              )}
-              {index + 2 < products.length && (
-                <Col id="columnasProductos" xs={12} sm={6} md={4} lg={3}>
-                  <Card>
-                    <Card.Img
-                      variant="top"
-                      src={products[index + 2].img}
-                      className="imagenProductoCard"
-                    />
-                    <Card.Body className="contenedorBodyProducto">
-                      <Card.Title className="tituloCardProducto">
-                        {products[index + 2].titulo}
-                      </Card.Title>
-                      <Button
-                        className="botonCardProducto"
-                        onClick={() =>
-                          mostrarDetalles(
-                            products[index + 2].titulo,
-                            products[index + 2].tiposProducto
-                          )
-                        }
-                      >
-                        Ver Detalles!
-                      </Button>
-                    </Card.Body>
-                  </Card>
-                </Col>
-              )}
-            </Row>
-          ) : null
-        )}
+        <Row id="filasProductos">
+          {products.map((producto) =>
+          <Col id="columnasProductos" xs={12} sm={6} md={4} lg={3}>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={producto.img}
+                className="imagenProductoCard"
+              />
+              <Card.Body className="contenedorBodyProducto">
+                <Card.Title className="tituloCardProducto">
+                  {producto.titulo}
+                </Card.Title>
+                <Button
+                  className="botonCardProducto"
+                  onClick={() =>
+                    mostrarDetalles(producto.titulo, producto.tiposProducto)
+                  }
+                >
+                  Ver Detalles!
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          
+          )}
+        </Row>
       </Container>
 
       <ModalProductos
