@@ -272,7 +272,7 @@ const Productos = () => {
         <Row id="filasProductos">
           {products.map((producto) =>
           <Col id="columnasProductos" xs={12} sm={6} md={4} lg={3}>
-            <Card>
+            <Card id="contenedorCardProducto">
               <Card.Img
                 variant="top"
                 src={producto.img}

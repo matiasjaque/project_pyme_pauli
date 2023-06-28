@@ -1,84 +1,268 @@
-.modal.show .modal-dialog {
-    transform: none;
-    height: 90%;
+@media (min-width: 1071px) {
+
+    .modal.show .modal-dialog {
+        transform: none;
+        height: 95%;
+    }
+    
+    .modal-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: var(--bs-modal-color);
+        pointer-events: auto;
+        background-color: var(--bs-modal-bg);
+        background-clip: padding-box;
+        border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+        border-radius: var(--bs-modal-border-radius);
+        outline: 0;
+        height: 100%;
+        background: #E892BF;
+    }
+    
+    #headerModalProductos{
+        height: 10%;
+    }
+    
+    #bodyModalProductos{
+        height: 78%;
+    }
+    
+    #footerModalProductos{
+        height: 12%;
+    }
+    
+    #CarouselModalProducto{
+        height: 100%;
+    }
+    
+    #contenedorModalProductos{
+        height: 100%;
+    }
+    
+    #contenedorSecundarioModalProductos{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background: #FFC9D9;
+    }
+    
+    .estilosTituloModalProductos{
+        font-size: 2.5em !important;
+    }   
+    
+    .tituloModalProductos{
+        font-size: 2em;
+        height: 10%;
+        text-align: center;
+        margin: 10px 5px;
+    }
+    
+    #imagenModalProductos{
+        width: 90% !important;
+        height: 45% !important;
+        margin: auto;
+    }
+    
+    #parrafoModalProductos{
+        width: 90% !important;
+        height: 45% !important;
+        font-size: 1.5em;
+        font-weight: 400;
+        font-family: none;
+        margin: 10px auto;
+        text-align: justify;
+    }
+    
+    #botonModalProductosCerrar{
+        width: 20%;
+        border-radius: 20px;
+        font-size: 1.3em;
+        font-weight: 500;
+        font-family: none;
+        background: #FEE0D5;
+        color: black;
+        border: none;
+    }
 }
 
-.modal-content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    color: var(--bs-modal-color);
-    pointer-events: auto;
-    background-color: var(--bs-modal-bg);
-    background-clip: padding-box;
-    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
-    border-radius: var(--bs-modal-border-radius);
-    outline: 0;
-    height: 100%;
-    background: #E892BF;
+@media (min-width: 480px) and (max-width: 992px){
+
+    .modal.show .modal-dialog {
+        transform: none;
+        height: 95%;
+    }
+    
+    .modal-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: var(--bs-modal-color);
+        pointer-events: auto;
+        background-color: var(--bs-modal-bg);
+        background-clip: padding-box;
+        border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+        border-radius: var(--bs-modal-border-radius);
+        outline: 0;
+        height: 100%;
+        background: #E892BF;
+    }
+    
+    #headerModalProductos{
+        height: 10%;
+    }
+    
+    #bodyModalProductos{
+        height: 78%;
+    }
+    
+    #footerModalProductos{
+        height: 12%;
+    }
+    
+    #CarouselModalProducto{
+        height: 100%;
+    }
+    
+    #contenedorModalProductos{
+        height: 100%;
+    }
+    
+    #contenedorSecundarioModalProductos{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background: #FFC9D9;
+    }
+    
+    .estilosTituloModalProductos{
+        font-size: 2em !important;
+    }   
+    
+    .tituloModalProductos{
+        font-size: 1.8em;
+        height: 10%;
+        text-align: center;
+        margin: 10px 5px;
+    }
+    
+    #imagenModalProductos{
+        width: 90% !important;
+        height: 45% !important;
+        margin: auto;
+    }
+    
+    #parrafoModalProductos{
+        width: 90% !important;
+        height: 45% !important;
+        font-size: 1.1em;
+        font-weight: 400;
+        font-family: none;
+        margin: 10px auto;
+        text-align: justify;
+    }
+    
+    #botonModalProductosCerrar{
+        width: 20%;
+        border-radius: 20px;
+        font-size: 1.1em;
+        font-weight: 500;
+        font-family: none;
+        background: #FEE0D5;
+        color: black;
+        border: none;
+    }
 }
 
-#headerModalProductos{
-    height: 10%;
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    .modal.show .modal-dialog {
+        transform: none;
+        height: 100%;
+    }
+    
+    .modal-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: var(--bs-modal-color);
+        pointer-events: auto;
+        background-color: var(--bs-modal-bg);
+        background-clip: padding-box;
+        border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+        border-radius: var(--bs-modal-border-radius);
+        outline: 0;
+        height: 100%;
+        background: #E892BF;
+    }
+    
+    #headerModalProductos{
+        height: 7%;
+    }
+    
+    #bodyModalProductos{
+        height: 78%;
+    }
+    
+    #footerModalProductos{
+        height: 12%;
+    }
+    
+    #CarouselModalProducto{
+        height: 100%;
+    }
+    
+    #contenedorModalProductos{
+        height: 100%;
+    }
+    
+    #contenedorSecundarioModalProductos{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background: #FFC9D9;
+    }
+    
+    .estilosTituloModalProductos{
+        font-size: 1.5em !important;
+    }   
+    
+    .tituloModalProductos{
+        font-size: 1.3em;
+        height: 10%;
+        text-align: center;
+        margin: 10px 5px;
+    }
+    
+    #imagenModalProductos{
+        width: 90% !important;
+        height: 40% !important;
+        margin: auto;
+    }
+    
+    #parrafoModalProductos{
+        width: 90% !important;
+        height: 50% !important;
+        font-size: 1em;
+        font-weight: 400;
+        font-family: none;
+        margin: 10px auto;
+        text-align: justify;
+    }
+    
+    #botonModalProductosCerrar{
+        width: 25%;
+        border-radius: 20px;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: none;
+        background: #FEE0D5;
+        color: black;
+        border: none;
+    }
 }
 
-#bodyModalProductos{
-    height: 80%;
-}
-
-#footerModalProductos{
-    height: 10%;
-}
-
-#CarouselModalProducto{
-    height: 100%;
-}
-
-#contenedorModalProductos{
-    height: 100%;
-}
-
-#contenedorSecundarioModalProductos{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    background: #FFC9D9;
-}
-
-.estilosTituloModalProductos{
-    font-size: 2.5em !important;
-}   
-
-.tituloModalProductos{
-    font-size: 2em;
-    height: 10%;
-    text-align: center;
-    margin: 10px 5px;
-}
-
-#imagenModalProductos{
-    width: 90% !important;
-    height: 45% !important;
-    margin: auto;
-}
-
-#parrafoModalProductos{
-    width: 90% !important;
-    height: 45% !important;
-    font-size: 1.5em;
-    font-weight: 400;
-    font-family: none;
-    margin: 10px auto;
-}
-
-#botonModalProductosCerrar{
-    width: 20%;
-    border-radius: 20px;
-    font-size: 1.3em;
-    font-weight: 500;
-    font-family: none;
-    background: #FEE0D5;
-    color: black;
-    border: none;
-}

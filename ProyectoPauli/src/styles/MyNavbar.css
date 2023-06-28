@@ -1,37 +1,167 @@
-#nabvar{
-    background: #EDBDE7;
-    height: 15%;
-    width: 100%;
-}
+/* ESTILOS PANTALLA DE ESCRITORIO */
 
-#contenedorNavbar{
-    width: 100%;
-    height: 100%;
-    margin: 10px 20px;
-}
+@media (min-width: 992px) {
 
-#contenedorImagenNavbar{
-    width: 50%;
-    height: 100%;
-}
-
-#imagenLogoNavbar{
-    width: 60%;
-    height: 100%;
-}
-
-#contenedorRedesSocialesNavbar{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    font-size: 2em;
-    font-weight: 600;
-    font-family: none;
-}
-
-.RedesSociales{
+    #nabvar{
+        background: #EDBDE7;
+        height: 15%;
+        width: 100%;
+    }
     
-    color: black !important;
+    #contenedorNavbar{
+        width: 100%;
+        height: 100%;
+        margin: 10px 20px;
+    }
+    
+    #contenedorImagenNavbar{
+        width: 50%;
+        height: 100%;
+    }
+    
+    #imagenLogoNavbar{
+        width: 60%;
+        height: 100%;
+    }
+    
+    #contenedorRedesSocialesNavbar{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-size: 2em;
+        font-weight: 600;
+        font-family: none;
+    }
+    
+    .RedesSociales{
+        
+        color: black !important;
+    }
+
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        background: none !important;
+        width: 100% !important;
+        flex-direction: row !important;
+    }
+    
+}
+
+/* ESTILOS PANTALLA DE TABLET */
+
+@media (min-width: 480px) and (max-width: 992px) {
+    #nabvar{
+        background: #EDBDE7;
+        height: 15%;
+        width: 100%;
+    }
+    
+    #contenedorNavbar{
+        width: 100%;
+        height: 100%;
+        margin: 10px 20px;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        background: #aa99a8;
+        z-index: 3 !important;
+        width: 100%;
+        height: 26em;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #contenedorImagenNavbar{
+        width: 100%;
+        height: 100%;
+        display: contents;
+    }
+    
+    #imagenLogoNavbar{
+        width: 60%;
+        height: 45%;
+        margin: 10px 0px;
+    }
+    
+    #contenedorRedesSocialesNavbar{
+        width: 60%;
+        height: auto;
+        display: flex;
+        justify-content: end;
+        align-items: flex-start;
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: none;
+        margin: auto;
+    }
+    
+    .RedesSociales{
+        
+        color: black !important;
+    }
+}
+
+
+
+/* ESTILOS PANTALLA DE CELULAR */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #nabvar{
+        background: #EDBDE7;
+        height: 15%;
+        width: 100%;
+    }
+    
+    #contenedorNavbar{
+        width: 100%;
+        height: 100%;
+        margin: 10px 20px;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        background: #aa99a8;
+        z-index: 3 !important;
+        width: 100%;
+        height: 20em;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #contenedorImagenNavbar{
+        width: 100%;
+        height: 100%;
+        display: contents;
+    }
+    
+    #imagenLogoNavbar{
+        width: 80%;
+        height: 45%;
+        margin: 10px 0px;
+    }
+    
+    #contenedorRedesSocialesNavbar{
+        width: 60%;
+        height: auto;
+        display: flex;
+        justify-content: end;
+        align-items: flex-start;
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: none;
+        margin: auto;
+    }
+    
+    .RedesSociales{
+        
+        color: black !important;
+    }
 }
