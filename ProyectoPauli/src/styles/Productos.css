@@ -65,7 +65,7 @@
 
 }
 
-
+/* ESTILOS PARA TABLETS */
 @media (min-width: 751px) and (max-width: 1071px) {
 
     #contenedorProductos{
@@ -197,6 +197,7 @@
     }
 }
 
+/* ESTILOS PARA CELULARES */
 
 @media (min-width: 320px) and (max-width: 480px) {
 
