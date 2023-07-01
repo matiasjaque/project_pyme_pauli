@@ -34,12 +34,15 @@ const Dashboard = () => {
     <div id="dashboard">
       <Carousel id="contenedorCarousel">
         {imagenesCarusel.map((imagenCarusel) => (
-          <Carousel.Item className="contenedorSecundarioCarousel">
-            <img
-              id="imagenDashboard"
-              src={imagenCarusel.imgLogo}
-              alt={imagenCarusel.nombre}
-            />
+          <Carousel.Item id="contenedorSecundarioCarousel">
+            <div id="contenedorImagenDashboard">
+              <img
+                id="imagenDashboard"
+                src={imagenCarusel.imgLogo}
+                alt={imagenCarusel.nombre}
+              />
+            </div>
+            
           </Carousel.Item>
         ))}
       </Carousel>

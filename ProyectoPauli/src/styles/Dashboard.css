@@ -23,15 +23,20 @@
   height: 100%;
 }
 
-.contenedorSecundarioCarousel {
+#contenedorSecundarioCarousel {
   height: 100%;
-  width: 100% !important;
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+}
+
+#contenedorImagenDashboard{
+  display: flex;
+  width: 90%;
+  height: 90%;
+  margin: auto;
 }
 
 #imagenDashboard {
   height: 50%;
   width: 50%;
+  margin: auto;
 }
