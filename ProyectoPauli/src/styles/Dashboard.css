@@ -1,5 +1,5 @@
 #dashboard {
-  background-color: aqua;
+  background-color: #F6CDFB;
   height: 60%;
   width: 100%;
   display: flex;
@@ -36,7 +36,7 @@
 }
 
 #imagenDashboard {
-  height: 50%;
-  width: 50%;
+  height: 85%;
+  width: 85%;
   margin: auto;
 }

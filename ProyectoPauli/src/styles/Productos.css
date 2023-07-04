@@ -5,7 +5,7 @@
     #contenedorProductos{
         width: 100%;
         height: auto;
-        background: #FFC9D9;
+        background: white;
         display: flex;
         justify-content: center;
 
@@ -14,7 +14,7 @@
     #contenedorSecundarioProductos{
         width: 85%;
         height: auto;
-        background: #FFC9D9;
+        background: white;
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -71,7 +71,7 @@
     #contenedorProductos{
         width: 100%;
         height: auto;
-        background: #FFC9D9;
+        background: white;
         display: flex;
         justify-content: center;
 
@@ -80,7 +80,7 @@
     #contenedorSecundarioProductos{
         width: 85%;
         height: auto;
-        background: #FFC9D9;
+        background: white;
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -136,7 +136,7 @@
     #contenedorProductos{
         width: 100%;
         height: auto;
-        background: #FFC9D9;
+        background: white;
         display: flex;
         justify-content: center;
 
@@ -145,7 +145,7 @@
     #contenedorSecundarioProductos{
         width: 85%;
         height: auto;
-        background: #FFC9D9;
+        background: white;
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -204,7 +204,7 @@
     #contenedorProductos{
         width: 100%;
         height: auto;
-        background: #FFC9D9;
+        background: white;
         display: flex;
         justify-content: center;
 
@@ -213,7 +213,7 @@
     #contenedorSecundarioProductos{
         width: 100%;
         height: auto;
-        background: #FFC9D9;
+        background: white;
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;

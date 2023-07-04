@@ -3,30 +3,40 @@ import "../styles/Dashboard.css";
 import Carousel from "react-bootstrap/Carousel";
 
 //manera de importar las imagenes
-import logo from "../assets/logos/logo.png";
-import logo2 from "../assets/logos/logo2.png";
-import logo3 from "../assets/logos/logo3.png";
-import logo4 from "../assets/logos/logo4.png";
+import promoInvierno from "../assets/dashboard/promoInvierno.png";
+import promoInvierno2 from "../assets/dashboard/promoInvierno.jpeg";
+import promoFamiliar from "../assets/dashboard/promoFamiliar.png";
+import promoEnamorados from "../assets/dashboard/promoEnamorados.png";
+import formaEntrega from "../assets/dashboard/formasEntrega.png";
+import lineaRoja from "../assets/dashboard/formasEntregaLineaRoja.png";
 
 const Dashboard = () => {
   // arreglo de productos estaticos
 
   const imagenesCarusel = [
     {
-      imgLogo: logo,
-      nombre: "logo1",
+      imagenDashBoard: promoInvierno,
+      nombre: "Promociones Invierno!",
     },
     {
-      imgLogo: logo2,
-      nombre: "logo 2",
+      imagenDashBoard: promoInvierno2,
+      nombre: "Promociones Invierno!",
     },
     {
-      imgLogo: logo3,
-      nombre: "logo 3",
+      imagenDashBoard: promoFamiliar,
+      nombre: "Promociones Familiares!",
     },
     {
-      imgLogo: logo4,
-      nombre: "logo 4",
+      imagenDashBoard: promoEnamorados,
+      nombre: "Promociones Enamorados!",
+    },
+    {
+      imagenDashBoard: formaEntrega,
+      nombre: "Formas de Entrega!",
+    },
+    {
+      imagenDashBoard: lineaRoja,
+      nombre: "Formas de Entrega Disponibles!",
     },
   ];
 
@@ -38,7 +48,7 @@ const Dashboard = () => {
             <div id="contenedorImagenDashboard">
               <img
                 id="imagenDashboard"
-                src={imagenCarusel.imgLogo}
+                src={imagenCarusel.imagenDashBoard}
                 alt={imagenCarusel.nombre}
               />
             </div>
