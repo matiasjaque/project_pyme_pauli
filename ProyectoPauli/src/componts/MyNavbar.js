@@ -6,11 +6,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
 
 import { MdWhatsapp } from 'react-icons/md';
-import { FaInstagram } from 'react-icons/fa';
+//import { FaInstagram } from 'react-icons/fa';
 
 
 
-import logo from '../assets/logos/logo4.png';
+import logo from '../assets/logos/logoOficial.png';
+import logoInsta from '../assets/logos/logoInstagram.png';
 
 const MyNavbar = () => {
     return (
@@ -22,9 +23,15 @@ const MyNavbar = () => {
                     <Image id='imagenLogoNavbar' src={logo} alt="Logo" />
                 </Navbar.Brand>
                 
-                <Nav id='contenedorRedesSocialesNavbar'>
-                    <Nav.Link className='RedesSociales' href="https://wa.me/56977731753"><MdWhatsapp />WhatsApp</Nav.Link>
-                    <Nav.Link className='RedesSociales' href="https://www.instagram.com/paulii_ordenes/"><FaInstagram />Instagram</Nav.Link>
+                <Nav id="contenedorRedesSocialesNavbar">
+                    <Nav.Link className="RedesSociales" href="https://wa.me/56977731753">
+                    <MdWhatsapp id="whattSappIconoNavbar" />
+                        WhatsApp
+                    </Nav.Link>
+                    <Nav.Link className="RedesSociales" href="https://www.instagram.com/_lina_antojitos/">
+                    <img src={logoInsta} alt="Logo Instagram" id='logoInstaNavbar'/>
+                        Instagram
+                    </Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

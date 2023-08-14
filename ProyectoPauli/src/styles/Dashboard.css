@@ -30,13 +30,13 @@
 
 #contenedorImagenDashboard{
   display: flex;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   margin: auto;
 }
 
 #imagenDashboard {
-  height: 85%;
-  width: 85%;
   margin: auto;
+  width: 95%;
+  height: 80%;
 }
