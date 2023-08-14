@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.590dd330.css",
-    "main.js": "/static/js/main.02f0d46b.js",
-    "static/media/lengua_gato.png": "/static/media/lengua_gato.a515be599ba109698f84.png",
-    "static/media/pie_limon.png": "/static/media/pie_limon.699cb977165e673642b0.png",
-    "static/media/alfajores_blancos.png": "/static/media/alfajores_blancos.c45c8ee876bb2eb0ac8e.png",
-    "static/media/logo2.png": "/static/media/logo2.4cce50e65dafc268aa2b.png",
-    "static/media/alfajor_maicena.png": "/static/media/alfajor_maicena.3e9fc977544e0192e393.png",
-    "static/media/logo3.png": "/static/media/logo3.3796f202106777093d45.png",
-    "static/media/logo4.png": "/static/media/logo4.dbe3421c0df62c70bb01.png",
-    "static/media/tarta_yoguth.png": "/static/media/tarta_yoguth.7eff8b1f218392a49acd.png",
-    "static/media/queque.png": "/static/media/queque.1c6679e68fbd2238f1a9.png",
-    "static/media/donas.png": "/static/media/donas.17428ef920904db08194.png",
-    "static/media/galletas_diseño.png": "/static/media/galletas_diseño.9b51c1f57847e68cb6be.png",
-    "static/media/alfajores_negros.png": "/static/media/alfajores_negros.08904202b780936cfacb.png",
+    "main.css": "/static/css/main.9d3f5cd2.chunk.css",
+    "main.js": "/static/js/main.0ae84e2c.chunk.js",
+    "main.js.map": "/static/js/main.0ae84e2c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3837a670.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3837a670.js.map",
+    "static/css/2.581451b8.chunk.css": "/static/css/2.581451b8.chunk.css",
+    "static/js/2.c65d1dea.chunk.js": "/static/js/2.c65d1dea.chunk.js",
+    "static/js/2.c65d1dea.chunk.js.map": "/static/js/2.c65d1dea.chunk.js.map",
     "index.html": "/index.html",
-    "main.590dd330.css.map": "/static/css/main.590dd330.css.map",
-    "main.02f0d46b.js.map": "/static/js/main.02f0d46b.js.map"
+    "static/css/2.581451b8.chunk.css.map": "/static/css/2.581451b8.chunk.css.map",
+    "static/css/main.9d3f5cd2.chunk.css.map": "/static/css/main.9d3f5cd2.chunk.css.map",
+    "static/js/2.c65d1dea.chunk.js.LICENSE.txt": "/static/js/2.c65d1dea.chunk.js.LICENSE.txt",
+    "static/media/alfajorG.f21c49bf.svg": "/static/media/alfajorG.f21c49bf.svg",
+    "static/media/alfajor_maicena.89a37ade.svg": "/static/media/alfajor_maicena.89a37ade.svg",
+    "static/media/alfajoresPorSeis.98c89547.svg": "/static/media/alfajoresPorSeis.98c89547.svg",
+    "static/media/donas.81c4cf6c.svg": "/static/media/donas.81c4cf6c.svg",
+    "static/media/galletas_diseño.24c01a74.svg": "/static/media/galletas_diseño.24c01a74.svg",
+    "static/media/lengua_gato.52f05de8.svg": "/static/media/lengua_gato.52f05de8.svg",
+    "static/media/logoInstagram.8662be8c.png": "/static/media/logoInstagram.8662be8c.png",
+    "static/media/logoOficial.d733040e.png": "/static/media/logoOficial.d733040e.png",
+    "static/media/mararons.68bdef3c.svg": "/static/media/mararons.68bdef3c.svg",
+    "static/media/promoInvierno1-1.220992e5.svg": "/static/media/promoInvierno1-1.220992e5.svg",
+    "static/media/promoInvierno1-2.94bef47c.svg": "/static/media/promoInvierno1-2.94bef47c.svg",
+    "static/media/queque.da40983a.svg": "/static/media/queque.da40983a.svg"
   },
   "entrypoints": [
-    "static/css/main.590dd330.css",
-    "static/js/main.02f0d46b.js"
+    "static/js/runtime-main.3837a670.js",
+    "static/css/2.581451b8.chunk.css",
+    "static/js/2.c65d1dea.chunk.js",
+    "static/css/main.9d3f5cd2.chunk.css",
+    "static/js/main.0ae84e2c.chunk.js"
   ]
 }
