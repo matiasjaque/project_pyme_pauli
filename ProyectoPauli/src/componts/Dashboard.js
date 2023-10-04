@@ -5,6 +5,9 @@ import Carousel from "react-bootstrap/Carousel";
 //manera de importar las imagenes
 import promoInvierno600 from "../assets/dashboard/promoInvierno1-1.svg";
 import promoInvierno900 from "../assets/dashboard/promoInvierno1-2.svg";
+import formasEntrega900 from "../assets/dashboard/formasEntrega900.svg";
+import formasEntrega600 from "../assets/dashboard/formasEntregaC.svg";
+//import formasEntregaG from "../assets/dashboard/iMAGEN 3 900X300.svg";
 
 const Dashboard = () => {
   // arreglo de productos estaticos
@@ -16,10 +19,26 @@ const Dashboard = () => {
       tamaño: 600,
     },
     {
+      imagenDashBoard: formasEntrega600,
+      nombre: "Promociones Invierno!",
+      tamaño: 600,
+    },
+    {
       imagenDashBoard: promoInvierno900,
       nombre: "Promociones Invierno!",
       tamaño: 900,
     },
+    {
+      imagenDashBoard: formasEntrega900,
+      nombre: "Promociones Invierno!",
+      tamaño: 900,
+    },
+    /* {
+      imagenDashBoard: formasEntregaG,
+      nombre: "Promociones Invierno!",
+      tamaño: 900,
+    }, */
+    
     /* {
       imagenDashBoard: promoInvierno3,
       nombre: "Promociones Invierno!",
