@@ -75,7 +75,8 @@ const Dashboard = () => {
 
   return (
     <div id="dashboard">
-      <Carousel id="contenedorCarousel">
+      
+      {/* <Carousel id="contenedorCarousel">
         {imagenesCarusel
           .filter((imagenCarusel) => (
             window.innerWidth < 600 ? imagenCarusel.tamaño === 600 : imagenCarusel.tamaño === 900
@@ -92,27 +93,8 @@ const Dashboard = () => {
               </div>
             </Carousel.Item>
           ))}
-      </Carousel>
+      </Carousel> */}
     </div>
-    /* <div id="dashboard">
-      <Carousel id="contenedorCarousel">
-        {imagenesCarusel.map((imagenCarusel) => (
-          <Carousel.Item id="contenedorSecundarioCarousel">
-            <div id="contenedorImagenDashboard">
-              // aqui 
-              <img
-                id="imagenDashboard"
-                src={imagenCarusel.imagenDashBoard}
-                alt={imagenCarusel.nombre}
-                style={{ maxWidth: "100%" }}
-              />
-              
-            </div>
-            
-          </Carousel.Item>
-        ))}
-      </Carousel>
-    </div> */
   );
 };
 export default Dashboard;

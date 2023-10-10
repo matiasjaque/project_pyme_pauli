@@ -31,22 +31,7 @@ const Productos = () => {
       titulo: "Alfajores Negros",
       img: alfajorGrande,
       tiposProducto: [
-        /* {
-          tituloTipo: "Caja de 3 Alfajores Negros",
-          imgTipo:
-            "https://i0.wp.com/www.distribuidoracasacosta.cl/wp-content/uploads/2021/04/caja-4-alfajores-1-scaled.jpg?fit=2361%2C2560&ssl=1",
-          descripcion:
-            "Deliciosos alfajores rellenos de manjar y cubiertos a elección con chocolate blanco, negro o mixto, como más te guste, a demás puedes agregar un mensaje a estas delicias, ideal para cualquier ocasión. Su costo es de ",
-          precio: "$4.200",
-        }, */
-        /* {
-          tituloTipo: "Caja de 4 Alfajores Negros",
-          imgTipo:
-            "https://i0.wp.com/www.distribuidoracasacosta.cl/wp-content/uploads/2021/04/caja-4-alfajores-1-scaled.jpg?fit=2361%2C2560&ssl=1",
-          descripcion:
-            "Deliciosos alfajores rellenos de manjar y cubiertos a elección con chocolate blanco, negro o mixto, como más te guste, a demás puedes agregar un mensaje a estas delicias, ideal para cualquier ocasión. Su costo es de ",
-          precio: "$5.600",
-        }, */
+        
         {
           tituloTipo: "Caja de 6 Alfajores Negros",
           imgTipo: alfajorX6,
@@ -54,14 +39,7 @@ const Productos = () => {
             "Deliciosos alfajores rellenos de manjar y cubiertos a elección con chocolate blanco, negro o mixto, como más te guste, a demás puedes agregar un mensaje a estas delicias, ideal para cualquier ocasión. Su costo es de ",
           precio: "$7.990",
         },
-        /* {
-          tituloTipo: "Caja de 9 Alfajores Negros",
-          imgTipo:
-            "https://falabella.scene7.com/is/image/Falabella/gsc_113607183_695528_3?wid=800&hei=800&qlt=70",
-          descripcion:
-            "Deliciosos alfajores rellenos de manjar y cubiertos a elección con chocolate blanco, negro o mixto, como más te guste, a demás puedes agregar un mensaje a estas delicias, ideal para cualquier ocasión. Su costo es de ",
-          precio: "$12.600",
-        }, */
+       
       ],
     },
     
@@ -202,6 +180,9 @@ const Productos = () => {
   return (
     <div id="contenedorProductos">
       <Container fluid id="contenedorSecundarioProductos">
+        <h1 id="tituloProductosDashboard">
+          Nuestros productos  <span class="rosado">estrellas</span>
+        </h1>
         <Row id="filasProductos">
           {products.map((producto) =>
           <Col id="columnasProductos" xs={12} sm={6} md={4} lg={3}>

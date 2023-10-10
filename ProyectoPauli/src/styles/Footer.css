@@ -5,7 +5,7 @@
         width: 100%;
         height: auto;
         min-height: 32%;
-        background: #F9DDFB;
+        background: #E71B7C;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -40,7 +40,7 @@
         font-size: 0.8em;
         font-weight: 600;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         border: none;
         color: black;
     }
@@ -51,7 +51,7 @@
         font-size: 0.8em;
         font-weight: 600;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -59,7 +59,7 @@
         font-size: 1.2em;
         font-weight: 400;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -90,17 +90,8 @@
         border: none;
     }
     
-    #estiloWtsFooter{
-        color: #10B418;
-        font-size: 1.5em;
-        font-weight: bold;
-        margin-left: -10px;
-    }
-    
     #estiloInstagramFooter{
-        width: 50px;
-        height: 30px;
-        margin-left: -20px;
+        height: 40px;
     }
 
     #imagenLogoFooter{
@@ -118,7 +109,7 @@
     #contenedorFooter{
         width: 100%;
         height: auto;
-        background: #F9DDFB;
+        background: #E71B7C;
     }
     
     #contenedorSecundarioFooter{
@@ -150,7 +141,7 @@
         font-size: 0.8em;
         font-weight: 600;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -160,7 +151,7 @@
         font-size: 0.8em;
         font-weight: 600;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -168,7 +159,7 @@
         font-size: 1.1em;
         font-weight: 400;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -200,17 +191,8 @@
         border: none;
     }
     
-    #estiloWtsFooter{
-        color: #10B418;
-        font-size: 1.5em;
-        font-weight: bold;
-        margin-left: -10px;
-    }
-    
     #estiloInstagramFooter{
-        width: 45px;
-        height: 30px;
-        margin-left: -20px;
+        height: 40px;
     }
 
     #imagenLogoFooter{
@@ -231,7 +213,7 @@
     #contenedorFooter{
         width: 100%;
         height: auto !important;
-        background: #F9DDFB;
+        background: #E71B7C;
     }
     
     #contenedorSecundarioFooter{
@@ -263,7 +245,7 @@
         font-size: 0.8em;
         font-weight: 600;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -273,7 +255,7 @@
         font-size: 0.8em;
         font-weight: 600;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -281,7 +263,7 @@
         font-size: 1.2em;
         font-weight: 400;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -320,13 +302,7 @@
     }
     
     #estiloInstagramFooter{
-        width: 50px;
-        height: 30px;
-    }
-
-    #imagenLogoFooter{
-        height: 11em;
-        display: flex;
+        height: 40px;
     }
 
     #imagenFooter{
@@ -341,7 +317,7 @@
     #contenedorFooter{
         width: 100%;
         height: auto !important;
-        background: #F9DDFB;
+        background: #E71B7C;
     }
     
     #contenedorSecundarioFooter{
@@ -373,7 +349,7 @@
         font-size: 0.8em;
         font-weight: 600;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -383,7 +359,7 @@
         font-size: 0.8em;
         font-weight: 600;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -391,7 +367,7 @@
         font-size: 1.2em;
         font-weight: 400;
         font-family: math;
-        background: #F9DDFB;
+        background: #E71B7C;
         color: black;
     }
     
@@ -430,13 +406,7 @@
     }
     
     #estiloInstagramFooter{
-        width: 50px;
-        height: 30px;
-    }
-
-    #imagenLogoFooter{
-        height: 11em;
-        display: flex;
+        height: 40px;
     }
 
     #imagenFooter{

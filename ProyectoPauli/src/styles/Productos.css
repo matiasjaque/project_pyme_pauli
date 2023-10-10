@@ -22,6 +22,17 @@
         
     }
 
+    #tituloProductosDashboard{
+        margin: 20px 10px;
+        font-size: xx-large;
+        font-weight: bold;
+        font-family: math;
+    }
+
+    .rosado{
+        color: pink;
+    }
+
     #filasProductos{
         width: 100%;
         display: flex;

@@ -5,13 +5,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
 
-import { MdWhatsapp } from 'react-icons/md';
 //import { FaInstagram } from 'react-icons/fa';
 
 
 
 import logo from '../assets/logos/logoOficial.png';
-import logoInsta from '../assets/logos/logoInstagram.png';
+
+import logoWtsp from '../assets/logos/logoWts.png';
+
+import logoInsta from '../assets/logos/logoInsta.png';
 
 const MyNavbar = () => {
     return (
@@ -25,12 +27,10 @@ const MyNavbar = () => {
                 
                 <Nav id="contenedorRedesSocialesNavbar">
                     <Nav.Link className="RedesSociales" href="https://wa.me/56977731753">
-                    <MdWhatsapp id="whattSappIconoNavbar" />
-                        WhatsApp
+                        <img src={logoWtsp} alt="Logo wtsp" id='logoInstaNavbar'/>
                     </Nav.Link>
                     <Nav.Link className="RedesSociales" href="https://www.instagram.com/_lina_antojitos/">
-                    <img src={logoInsta} alt="Logo Instagram" id='logoInstaNavbar'/>
-                        Instagram
+                        <img src={logoInsta} alt="Logo Instagram" id='logoInstaNavbar'/>  
                     </Nav.Link>
                 </Nav>
                 </Navbar.Collapse>

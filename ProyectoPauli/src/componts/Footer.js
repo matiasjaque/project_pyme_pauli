@@ -7,9 +7,9 @@ import logoFooter from '../assets/logos/logoOficial.png';
 import { Row, Col } from "react-bootstrap";
 import Accordion from 'react-bootstrap/Accordion';
 
-import { MdWhatsapp } from 'react-icons/md';
+import logoWtsp from '../assets/logos/logoWts.png';
 
-import logoInsta from '../assets/logos/logoInstagram.png';
+import logoInsta from '../assets/logos/logoInsta.png';
 
 
 
@@ -50,9 +50,11 @@ const Footer = () => {
             </Col>
             <Col xs={12} md={2}>
                 <div id='contenedorRedesSocialesFooter'>
-                    <button className='botonesRedesSocialesFooter' onClick={irWtsp}><MdWhatsapp id='estiloWtsFooter'/> Whattsapp</button>
+                    <button className='botonesRedesSocialesFooter' onClick={irWtsp}>
+                        <img src={logoWtsp} alt="Logo Wtsp" id='estiloInstagramFooter'/>
+                    </button>
                     <button className='botonesRedesSocialesFooter' onClick={irInstagram}>
-                        <img src={logoInsta} alt="Logo Instagram" id='estiloInstagramFooter'/>Instagram
+                        <img src={logoInsta} alt="Logo Instagram" id='estiloInstagramFooter'/>
                     </button>
                 </div>
             </Col>

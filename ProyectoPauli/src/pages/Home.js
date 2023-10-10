@@ -9,7 +9,8 @@ const Home = () => {
     return (
         <div id='contenedorPrincipal'>
             <MyNavbar/>
-            <Dashboard/>
+            <div id="separacionSeccion"></div>
+            {/* <Dashboard/> */}
             <Productos/>
             <Footer/>
         </div>

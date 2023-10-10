@@ -3,7 +3,7 @@
 @media (min-width: 992px) {
 
     #nabvar{
-        background: #F9DDFB;
+        background: #E71B7C;
         height: 15%;
         width: 100%;
     }
@@ -20,7 +20,7 @@
     }
     
     #imagenLogoNavbar{
-        width: 60%;
+        width: auto;
         height: 100%;
     }
     
@@ -50,11 +50,6 @@
         flex-direction: row !important;
     }
 
-    #whattSappIconoNavbar{
-        color: #10B418;
-        font-size: 1.3em;
-        font-weight: bold;
-    }
 
     .navbar-expand-lg .navbar-collapse {
         display: flex !important;
@@ -63,9 +58,7 @@
     }
 
     #logoInstaNavbar{
-        width: 70px;
-        height: 41px;
-        margin-right: -15px;
+        height: 40px;
     }
 
     
@@ -76,7 +69,7 @@
 
 @media (min-width: 480px) and (max-width: 992px) {
     #nabvar{
-        background: #F9DDFB;
+        background: #E71B7C;
         height: 15%;
         width: 100%;
     }
@@ -90,7 +83,7 @@
     .navbar-collapse {
         flex-basis: 100%;
         flex-grow: 1;
-        background: #F9DDFB;
+        background: #E71B7C;
         z-index: 3 !important;
         width: 100%;
         height: 22em !important;
@@ -106,7 +99,7 @@
     }
     
     #imagenLogoNavbar{
-        width: 80%;
+        width: auto;
         height: 45%;
         margin: 10px 0px;
     }
@@ -130,19 +123,8 @@
         font-weight: 500 !important;
     }
 
-    #whattSappIconoNavbar{
-        color: #10B418;
-        font-size: 1.3em;
-        font-weight: bold;
-        margin-left: 10px;
-        margin-right: 5px;
-    }
-
     #logoInstaNavbar{
-        width: 65px;
         height: 40px;
-        margin-right: -5px;
-        margin-left: -5px;
     }
 }
 
@@ -152,7 +134,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
     #nabvar{
-        background: #F9DDFB;
+        background: #E71B7C;
         height: 15%;
         width: 100%;
     }
@@ -166,7 +148,7 @@
     .navbar-collapse {
         flex-basis: 100%;
         flex-grow: 1;
-        background: #F9DDFB;
+        background: #E71B7C;
         z-index: 3 !important;
         width: 100%;
         height: 20em;
@@ -182,7 +164,7 @@
     }
     
     #imagenLogoNavbar{
-        width: 100%;
+        width: 1auto;
         height: 45%;
         margin: 10px 0px;
     }
@@ -206,18 +188,7 @@
         font-weight: 500 !important;
     }
 
-    #whattSappIconoNavbar{
-        color: #10B418;
-        font-size: 1.7em;
-        font-weight: bold;
-        margin-left: 5px;
-        margin-right: 10px;
-    }
-
     #logoInstaNavbar{
-        width: 60px;
-        height: 35px;
-        margin-right: -10px;
-        margin-left: -5px;
+        height: 40px;
     }
 }

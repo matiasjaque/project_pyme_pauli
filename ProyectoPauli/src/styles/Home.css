@@ -1,3 +1,8 @@
 #contenedorPrincipal{
     height: 100%;
 }
+
+#separacionSeccion{
+    height: 35px; /* Altura de la línea */
+    background-color: #FA499D; 
+}
